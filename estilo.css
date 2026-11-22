@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #f5e6ff;            
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.fondoTablero{
+	padding: 5px; 
+	background-color: #4a2c82;           
+	display:flex; 
+	width: fit-content; 
+	border-radius: 14px;
+	box-shadow: 0px 4px 10px rgba(74, 44, 130, 0.35);
+}
+
+.tablero{display: grid; gap: 4px; min-width: 310px; min-height: 310px; padding: 5px;}
+
+.tablero div{
+	width: calc(100% - 4px); 
+	height: calc(100% - 4px); 
+	border-radius: 8px;
+	margin: 0;
+	border: 1px solid #2f1a57;
+	font-size: 24px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #7b4fc4;                 
+	float: left; 
+	display: flex; 
+	gap: 5px;  
+	justify-content: center; 
+	align-items: center; 
+	margin: 2px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+	color: white;
+	cursor: pointer;
+}
+
+.tablero div:hover {transform: scale(1.05); background-color: #d9488f;}   
+
+#titulo {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    color: #4a2c82;
+}
+
+#informacion{ 
+	background-color: white; 
+	width: fit-content; 
+	height: fit-content; 
+	padding: 15px; 
+	margin-left: 20px; 
+	border-radius: 10px;
+	border-left: 6px solid #d9488f;         
+	color: #4a2c82;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.FondoPagina{display:flex; gap: 20px; padding: 20px;}
